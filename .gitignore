@@ -1,0 +1,77 @@
+# ========================
+# Build results
+# ========================
+bin/
+obj/
+out/
+artifacts/
+
+# ========================
+# Visual Studio
+# ========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ========================
+# Visual Studio Code
+# ========================
+.vscode/
+
+# ========================
+# Rider IDE
+# ========================
+.idea/
+
+# ========================
+# .NET Core / .NET
+# ========================
+project.lock.json
+project.fragment.lock.json
+publish/
+*.nupkg
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# ========================
+# SQL / Database files (if local backups)
+# ========================
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.sql
+
+# ========================
+# Test Results
+# ========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ========================
+# Publish / Deployment folders
+# ========================
+publish/
+wwwroot/
